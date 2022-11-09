@@ -1,0 +1,37 @@
+{
+  "name": "fidzulu_dvd",
+  "version": "1.0.0",
+  "description": "FidZulu-dvds",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "./node_modules/.bin/jasmine-node --captureExceptions spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs": "0.0.1-security",
+    "http-errors": "^2.0.0",
+    "jasmine-node": "^3.0.0",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "supertest": "^6.3.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scrodenbug/FidZulu-Dvds.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/scrodenbug/FidZulu-Dvds/issues"
+  },
+  "homepage": "https://github.com/scrodenbug/FidZulu-Dvds#readme"
+}
